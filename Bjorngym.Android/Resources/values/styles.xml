@@ -25,9 +25,9 @@
         <item name="colorAccent">#FF4081</item>
     </style>
     <style name="Theme.Splash" parent="android:Theme">
-        <item name="android:windowBackground">@drawable/bjorgymsplash</item>
+        <item name="android:windowBackground">@drawable/splash</item>
          <item name="android:windowNoTitle">true</item>
          <item name="android:windowFullscreen">true</item>
-         <item name="colorPrimaryDark">#350049</item>
+         <item name="colorPrimaryDark">#0A3161</item>
     </style>
 </resources>

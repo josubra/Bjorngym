@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Bjorngym.Views.HomePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame Margin="20,20,20,0" HeightRequest="310" VerticalOptions="Start" BorderColor="#0A3161" CornerRadius="5" Padding="1">
+                <Grid Padding="0" RowSpacing="0" ColumnSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="230" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Image Source="summerpromotion" Aspect="AspectFill" VerticalOptions="StartAndExpand" Grid.Row="0" />
+                    <Label x:Name="lblSubject" Text="Promoção de Verão" Margin="10,0" TextColor="#0A3161" Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" />
+                    <Label x:Name="lblDescription" LineBreakMode="WordWrap" Text="Musculação mensal, qualquer dia e horário por apenas R$ 69,90… mais" Margin="10,0" TextColor="Gray" Grid.Row="2" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" />
+                </Grid>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

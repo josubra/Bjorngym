@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,19 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logobjorngym.png" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                                <rect key="frame" x="85" y="246" width="244" height="228"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2865" translatesAutoresizingMaskIntoConstraints="NO" image="backgroundsplash.png">
+                                <rect key="frame" x="1" y="0.0" width="413" height="769"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bjornlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                                <rect key="frame" x="112" y="254" width="179" height="228"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 <constraints>
-                                    <constraint id="244" firstAttribute="height" constant="228"/>
-                                    <constraint id="245" firstAttribute="width" constant="244"/>
+                                    <constraint id="3092" firstAttribute="height" constant="228"/>
+                                    <constraint id="3093" firstAttribute="width" constant="179"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" colorSpace="custom" customColorSpace="sRGB" red="0.262008428573608" green="0.0222417321056128" blue="0.249209344387054" alpha="1"/>
                         <constraints>
-                            <constraint id="246" firstItem="23" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX"/>
-                            <constraint id="247" firstAttribute="centerY" secondItem="23" secondAttribute="centerY" constant="8"/>
+                            <constraint id="3088" firstItem="2865" firstAttribute="top" secondItem="yd7-JS-zBw" secondAttribute="top"/>
+                            <constraint id="3089" firstItem="2865" firstAttribute="bottom" secondItem="yd7-JS-zBw" secondAttribute="bottom" constant="33"/>
+                            <constraint id="3090" firstAttribute="leadingMargin" secondItem="2865" secondAttribute="leading" constant="19"/>
+                            <constraint id="3091" firstItem="2865" firstAttribute="trailing" secondItem="yd7-JS-zBw" secondAttribute="trailingMargin" constant="20"/>
+                            <constraint id="3100" firstItem="23" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY"/>
+                            <constraint id="3101" firstItem="2865" firstAttribute="centerX" secondItem="23" secondAttribute="centerX" constant="6"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logobjorngym.png" width="556" height="527"/>
+        <image name="bjornlogo.png" width="172" height="214"/>
+        <image name="backgroundsplash.png" width="375" height="667"/>
     </resources>
 </document>

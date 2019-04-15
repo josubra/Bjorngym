@@ -90,10 +90,19 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
-    <AndroidResource Include="Resources\drawable\bjorgymsplash.png" />
     <AndroidResource Include="Resources\drawable\workout.jpg" />
     <AndroidResource Include="Resources\drawable\batmanprofile.png" />
     <AndroidResource Include="Resources\drawable\mask.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable\summerpromotion.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\summerpromotion.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\summerpromotion.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\summerpromotion.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\summerpromotion.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

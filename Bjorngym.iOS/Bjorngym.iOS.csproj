@@ -129,6 +129,15 @@
     <BundleResource Include="Resources\workout.jpg" />
     <BundleResource Include="Resources\batmanprofile.png" />
     <BundleResource Include="Resources\mask.png" />
+    <BundleResource Include="Resources\summerpromotion.png" />
+    <BundleResource Include="Resources\summerpromotion%402x.png" />
+    <BundleResource Include="Resources\summerpromotion%403x.png" />
+    <BundleResource Include="Resources\bjornlogo%403x.png" />
+    <BundleResource Include="Resources\bjornlogo%402x.png" />
+    <BundleResource Include="Resources\bjornlogo.png" />
+    <BundleResource Include="Resources\backgroundsplash%403x.png" />
+    <BundleResource Include="Resources\backgroundsplash%402x.png" />
+    <BundleResource Include="Resources\backgroundsplash.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
