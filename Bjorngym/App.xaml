@@ -4,9 +4,30 @@
         <ResourceDictionary>
             <!--Global Styles-->
             <Color x:Key="NavigationPrimary">#0A3161</Color>
+            <Color x:Key="PrimaryColor">#0A3161</Color>
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
+            </Style>
+            <Style TargetType="Label" x:Key="LabelTitle" >
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="Margin" Value="10,0" />
+            </Style>
+            <Style TargetType="Label" x:Key="LabelTitleWhite" >
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style TargetType="Label" x:Key="LabelDescription" >
+                <Setter Property="LineBreakMode" Value="WordWrap" />
+                <Setter Property="VerticalOptions" Value="StartAndExpand" />
+                 <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+                <Setter Property="TextColor" Value="Gray" />
+                <Setter Property="FontSize" Value="Default" />
+                <Setter Property="Margin" Value="10,0" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

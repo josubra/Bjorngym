@@ -21,8 +21,10 @@ namespace Bjorngym.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Bjorn Gym" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.Home, Title="Home" },
+                new HomeMenuItem {Id = MenuItemType.Home, Title="Meu Treino" },
+                new HomeMenuItem {Id = MenuItemType.Home, Title="Planos" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="Minha Conta" }
             };
 
             ListViewMenu.ItemsSource = menuItems;

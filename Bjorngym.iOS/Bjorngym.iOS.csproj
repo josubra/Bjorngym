@@ -138,6 +138,12 @@
     <BundleResource Include="Resources\backgroundsplash%403x.png" />
     <BundleResource Include="Resources\backgroundsplash%402x.png" />
     <BundleResource Include="Resources\backgroundsplash.png" />
+    <BundleResource Include="Resources\suplementpromotion.png" />
+    <BundleResource Include="Resources\suplementpromotion%403x.png" />
+    <BundleResource Include="Resources\suplementpromotion%402x.png" />
+    <BundleResource Include="Resources\defaultprofile%403x.png" />
+    <BundleResource Include="Resources\defaultprofile%402x.png" />
+    <BundleResource Include="Resources\defaultprofile.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

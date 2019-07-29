@@ -6,7 +6,9 @@ namespace Bjorngym.Models
 {
     public enum MenuItemType
     {
-        Browse,
+        Home,
+        MeuTreino,
+        Planos,
         About
     }
     public class HomeMenuItem
